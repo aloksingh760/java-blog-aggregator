@@ -1,0 +1,9 @@
+package day1;
+
+public interface Amimal extends LivingThings {
+
+	
+	
+public void placeToLive();	
+	
+}

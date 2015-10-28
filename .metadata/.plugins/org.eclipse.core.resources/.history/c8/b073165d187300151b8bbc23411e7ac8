@@ -1,0 +1,13 @@
+package day1;
+
+public interface Animal extends LivingThings {
+
+	
+	
+public void placeToLive();
+
+pubic  void getName();
+
+
+	
+}

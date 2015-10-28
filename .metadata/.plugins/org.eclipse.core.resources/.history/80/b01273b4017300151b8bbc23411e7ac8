@@ -1,0 +1,29 @@
+
+public class NumberTest {
+
+	
+	
+	public int getMissingNumber(){
+		
+		int[] numbers=new int[51];
+		for(int i=0; i<=numbers.length-1;i++){
+			numbers[i]=i;
+			//System.out.println(numbers[i]);
+		}
+		numbers[26]=34;
+		
+		for(int i=0; i<=numbers.length-1;i++){
+			//numbers[i]=i;
+			System.out.println(numbers[i]);
+		}
+		
+		return 0;
+	}
+	
+	public static void main(String[] args){
+		
+		NumberTest n=new NumberTest();
+		n.getMissingNumber();
+		
+	}
+}

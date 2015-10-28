@@ -1,0 +1,30 @@
+package day1;
+
+public class Dog  implements Animal{
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		System.out.println(" dogs can eat veg and non-veg both");
+	}
+
+	@Override
+	public void takeoxygen() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getName() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void placeToLive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

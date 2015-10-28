@@ -1,0 +1,40 @@
+
+public class NumberTest {
+
+	
+	
+	public void getMissingNumber(){
+		// initialize array
+		int[] numbers=new int[51];
+		
+		// declear the element in array by for  loop 
+		for(int i=0; i<=numbers.length-1;i++){
+			numbers[i]=i;
+			//System.out.println(numbers[i]);
+		}
+		// replace the value in array
+		numbers[10]=44;
+		// searching the missing and duplicate value
+		for(int i=0; i<=numbers.length-1;i++){
+			//numbers[i]=i;
+		    for(int j=i+1; j<=numbers.length-1;j++){
+		    	
+		    	if((numbers[i]==numbers[j])){
+		    		
+		    		System.out.println("missing number is : "+i);
+		    		System.out.println("duplicate number is : "+numbers[i]);
+		    		
+		    	}
+		    }
+		}
+		
+	
+	}
+	
+	public static void main(String[] args){
+		
+		NumberTest n=new NumberTest();
+		n.getMissingNumber();
+		
+	}
+}

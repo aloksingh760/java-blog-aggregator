@@ -1,0 +1,14 @@
+
+
+public class ForEachExample1{  
+  public static void main(String args[]){  
+   String arr[]={"12","13","14","44"};  
+  
+   for(String i:arr){  
+     System.out.println(i);  
+     System.out.pritln(i.hashCode());
+   }  
+  
+ }   
+}  
+      

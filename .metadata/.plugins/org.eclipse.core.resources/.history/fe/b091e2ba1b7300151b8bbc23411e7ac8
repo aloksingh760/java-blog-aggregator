@@ -1,0 +1,8 @@
+package day1;
+
+public interface LivingThings {
+
+public void eat();
+public void takeoxygen();
+
+}
